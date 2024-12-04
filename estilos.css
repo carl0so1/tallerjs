@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #admin-panel {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid blue;
+    background-color: white;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #6c757d;
+  }
+  
+  #vote-panel {
+    margin: 20px;
+  }
+  
+  .candidate {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .candidate img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .candidate .info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .candidate .info div {
+    margin-left: 10px;
+  }
+  
+  #results-panel {
+    margin: 20px;
+  }
+  
+  #results-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .result-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid blue;
+    border-radius: 5px;
+  }

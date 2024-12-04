@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulación de Elecciones</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1> Elecciones de Representante de Aprendices</h1>
+  </header>
+
+  <div id="admin-panel">
+    <h2>Administrar Elecciones</h2>
+    <label for="username">Usuario:</label>
+    <input type="text" id="username">
+    <button id="start-election">Iniciar Elecciones</button>
+    <button id="close-election" disabled>Cerrar Elecciones</button>
+  </div>
+
+  <div id="vote-panel" style="display:none;">
+    <h2>Elija su candidato:</h2>
+    <div id="candidates-list"></div>
+  </div>
+
+  <div id="results-panel" style="display:none;">
+    <h2>Resultados de las Elecciones</h2>
+    <div id="results-list"></div>
+  </div>
+
+  <script src="JavaScrip.js"></script>
+</body>
+</html>
